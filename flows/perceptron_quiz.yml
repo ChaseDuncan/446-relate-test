@@ -32,7 +32,7 @@ pages:
         Please watch this video to review the perceptron content.
 
         {% from "macros.jinja" import youtube %}
-        {{ youtube("e69yBNme1zM&t") }}
+        {{ youtube("e69yBNme1zM") }}
 
 -
     type: ChoiceQuestion
