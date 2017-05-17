@@ -17,8 +17,6 @@ chunks:
         # Welcome to CS446-FA17
         (This is a test site.)
 
-        Check out the [perceptron quiz](flow:perceptron_quiz). Do it now. Do it.
-
-        Look at the amazing embedded [PDF](repocur:pdfs/sample.pdf).
+        Check out the [perceptron quiz](flow:perceptron_quiz).
 
         <img src="repo:images/robot.png">
