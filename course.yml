@@ -18,7 +18,7 @@ chunks:
         # Compare this text.
         With this text
 
-        Check out the [linear algebra recap](flow:001-linalg-recap). Do it now. Do it.
+        Check out the [perceptron quiz](flow:perceptron_quiz). Do it now. Do it.
 
         You can also go there using a
         <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>.
