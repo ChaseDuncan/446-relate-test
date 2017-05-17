@@ -38,8 +38,7 @@ pages:
 
     choices:
 
-      - ~CORRECT~ The size of the margin and upper bound on the
-      $L_2$ norm of $X$.
+      - ~CORRECT~ The size of the margin and upper bound on the $L_2$ norm of $X$.
       - The size of $X$.
       - The dimensionality of the data.
       - All of the other choices.
