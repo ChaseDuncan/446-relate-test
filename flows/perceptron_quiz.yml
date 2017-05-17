@@ -10,16 +10,15 @@ rules:
 
     grade_identifier: perceptron_quiz
     grade_aggregation_strategy: max_grade
-    i
-        grading:
-            -
-                    # If the user completes the flow before the event 'end_week 1', they
-                    # receive full credit.
-                    if_completed_before: end_week 1
-                    credit_percent: 100
-            -
-                    # Otherwise, no credit is given.
-                    credit_percent: 0
+    grading:
+    -
+      # If the user completes the flow before the event 'end_week 1', they
+      # receive full credit.
+      if_completed_before: end_week 1
+      credit_percent: 100
+    -
+      # Otherwise, no credit is given.
+      credit_percent: 0
 
 pages:
 
