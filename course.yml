@@ -21,9 +21,4 @@ chunks:
 
         Look at the amazing embedded [PDF](repocur:pdfs/sample.pdf).
 
-        In addition to interactive content, RELATE also supports [static (i.e.
-        non-interactive) pages](staticpage:test).
-
         <img src="repo:images/robot.png">
-
-        # (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
