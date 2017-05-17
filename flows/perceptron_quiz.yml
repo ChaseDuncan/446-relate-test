@@ -35,6 +35,7 @@ pages:
 
         What does the mistake bound for the perceptron learning
         algorithm depend on?
+
     choices:
 
       - ~CORRECT~ The size of the margin and upper bound on the
