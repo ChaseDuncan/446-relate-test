@@ -1,0 +1,51 @@
+title: "Perceptron"
+description: |
+    # Perceptron Quiz
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view, submit_answer, end_session]
+
+    grade_identifier: perceptron_quiz
+    grade_aggregation_strategy: max_grade
+
+pages:
+
+-
+    type: Page
+    id: Review
+    content: |
+
+        # Perceptron review video.
+
+        Please watch this video to review the perceptron content.
+
+        {% from "macros.jinja" import youtube %}
+        {{ youtube("e69yBNme1zM&t=333s") }}
+
+-
+    type:ChoiceQuestion
+    id: perceptron_mistake_bound
+    value: 1
+    prompt: |
+
+        # Perceptron Mistake-Bound
+
+        What does the mistake bound for the perceptron learning
+        algorithm depend on?
+    choices:
+
+      - ~CORRECT~ The size of the margin and upper bound on the
+      $L_2$ norm of $X$.
+      - The size of $X$.
+      - The dimensionality of the data.
+      - All of the other choices.
+
+completion_text: |
+
+    # End of Perceptron Quiz.
+
+    See you in class!
+
