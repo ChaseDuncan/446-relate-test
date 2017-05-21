@@ -1,20 +1,20 @@
 {% macro what_is_half() -%}
 -
-type: TextQuestion
-id: half
-value: 5
-prompt: |
+  type: TextQuestion
+  id: half
+  value: 5
+  prompt: |
 
-  # A half
+    # A half
 
-  What's a half?
+    What's a half?
 
-answers:
+  answers:
 
-  - type: float
-    value: 0.5
-    rtol: 1e-4
-  - <plain>half
-  - <plain>a half
+    - type: float
+      value: 0.5
+      rtol: 1e-4
+    - <plain>half
+    - <plain>a half
 
 {%- endmacro %}
