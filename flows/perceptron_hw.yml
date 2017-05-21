@@ -20,13 +20,11 @@ rules:
   -
     credit_percent: 100
 
-groups:
--
-  id: intro
-  pages:
 
-    {% from "perceptron.jinja" import what_is_half %}
-    {{ what_is_half(5) }}
+pages:
+
+  {% from "perceptron.jinja" import what_is_half %}
+  {{ what_is_half(5) }}
    
 completion_text: |
 
