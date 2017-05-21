@@ -19,6 +19,7 @@ rules:
   grading:
   -
     credit_percent: 100
+
 groups:
 -
   id: intro
@@ -36,6 +37,9 @@ groups:
 -
   id: perceptron_hw_questions 
   pages:
+
+  {% from "perceptron.jinja" import what_is_half %}
+  {{ what_is_half(5) }}
 
   -
     type: TextQuestion
