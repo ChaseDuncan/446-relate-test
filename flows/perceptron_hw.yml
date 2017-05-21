@@ -22,11 +22,11 @@ rules:
 
 groups: 
 -
-id: perceptron_hw
-pages:
+  id: perceptron_hw
+  pages:
 
-  {% from "perceptron.jinja" import what_is_half %}
-  {{ what_is_half(5) }}
+    {% from "perceptron.jinja" import what_is_half %}
+    {{ what_is_half(5) }}
    
 completion_text: |
 
