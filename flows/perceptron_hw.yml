@@ -21,25 +21,9 @@ rules:
     credit_percent: 100
 
 pages:
-
--
-  type: TextQuestion
-  id: half
-  value: 5
-  prompt: |
-
-    # A half
-
-    What's a half?
-
-  answers:
-
-    - type: float
-      value: 0.5
-      rtol: 1e-4
-    - <plain>half
-    - <plain>a half
-    
+{% from "perceptron.jinja" import what_is_half %}
+{{ what_is_half(5) }}
+   
 completion_text: |
 
   Youve completed the homework! Good job!
