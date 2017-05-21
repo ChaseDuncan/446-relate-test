@@ -21,6 +21,7 @@ rules:
     credit_percent: 100
 
 pages:
+
 -
   {% from "perceptron.jinja" import what_is_half %}
   {{ what_is_half(5) }}
