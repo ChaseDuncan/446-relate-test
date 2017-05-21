@@ -1,18 +1,19 @@
 {% macro what_is_half(value) -%}
-type: TextQuestion
-id: half
-value: {{ value }}
-prompt: |
+-
+  type: TextQuestion
+  id: half
+  value: {{ value }}
+  prompt: |
 
-  # A half
+    # A half
 
-  What's a half?
+    What's a half?
 
-answers:
+  answers:
 
-  - type: float
-    value: 0.5
-    rtol: 1e-4
-  - <plain>half
-  - <plain>a half
+    - type: float
+      value: 0.5
+      rtol: 1e-4
+    - <plain>half
+    - <plain>a half
 {%- endmacro %}
