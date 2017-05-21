@@ -43,7 +43,7 @@ groups:
 
   -
     type: TextQuestion
-    id: half
+    id: half2
     value: 5
     prompt: |
 
