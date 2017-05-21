@@ -39,8 +39,8 @@ groups:
   shuffle: False
   pages:
 
-  {% from "perceptron.jinja" import what_is_half() %}
-  {{ what_is_half }}
+  {% from "perceptron.jinja" import what_is_half %}
+  {{ what_is_half() }}
    
 completion_text: |
 
