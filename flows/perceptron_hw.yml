@@ -20,12 +20,9 @@ rules:
   -
     credit_percent: 100
 
-groups: 
--
-  id: perceptron_hw
-  shuffle: False
-  pages:
+pages:
 
+-
   {% from "perceptron.jinja" import what_is_half %}
   {{ what_is_half(5) }}
    
