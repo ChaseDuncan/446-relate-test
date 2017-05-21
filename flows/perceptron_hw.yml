@@ -41,7 +41,7 @@ groups:
 {% from "perceptron.jinja" import what_is_half %}
 {{ what_is_half(5) }}
 
-  -
+-
     type: TextQuestion
     id: half2
     value: 5
