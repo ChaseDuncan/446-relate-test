@@ -23,6 +23,7 @@ rules:
 groups: 
 -
   id: perceptron_hw
+  shuffle: False
   pages:
 
   {% from "perceptron.jinja" import what_is_half %}
