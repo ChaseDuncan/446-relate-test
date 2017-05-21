@@ -20,26 +20,20 @@ rules:
   -
     credit_percent: 100
 
-groups:
+pages:
 -
-  id: intro
-  pages:
-  -
-    type: Page
-    id: welcome
-    content: |
-      # Welcome to the Perceptron homework!
+  type: Page
+  id: welcome
+  content: |
+    # Welcome to the Perceptron homework!
 
-      Do not be afraid.
--
-id: perceptron_hw_problems
-  pages:
+    Do not be afraid.
 
-  {% from "perceptron.jinja" import what_is_half %}
-  {{ what_is_half(5) }}
+{% from "perceptron.jinja" import what_is_half %}
+{{ what_is_half(5) }}
 
-  {% from "perceptron.jinja" import what_is_one %}
-  {{ what_is_one(5) }}
+{% from "perceptron.jinja" import what_is_one %}
+{{ what_is_one(5) }}
 
 completion_text: |
 
