@@ -37,10 +37,25 @@ groups:
     id: perceptron_hw_questions 
     shuffle: False
     pages:
+    -
+      type: TextQuestion
+      id: half
+      value: 5
+      prompt: |
 
-    {% from "perceptron.jinja" import what_is_half %}
-    {{ what_is_half(5) }}
+        # A half
 
+        What's a half?
+
+      answers:
+
+        - type: float
+          value: 0.5
+          rtol: 1e-4
+        - <plain>half
+        - <plain>a half
+
+   
 completion_text: |
 
   Youve completed the homework! Good job!
