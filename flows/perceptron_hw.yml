@@ -25,20 +25,6 @@ groups:
   id: intro
   pages:
 
-  -
-    type: Page
-    id: welcome
-    content: |
-
-      # Welcome to the test quiz for RELATE!
-
-      Don't be scared.
-
-  -
-    id: perceptron_hw_questions 
-    shuffle: False
-    pages:
-
     {% from "perceptron.jinja" import what_is_half %}
     {{ what_is_half(5) }}
    
