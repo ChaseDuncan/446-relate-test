@@ -19,11 +19,28 @@ rules:
   grading:
   -
     credit_percent: 100
+groups:
+-
+  id: intro
+  pages:
 
-pages:
-{% from "perceptron.jinja" import what_is_half %}
-{{ what_is_half(5) }}
-   
+  -
+    type: Page
+    id: welcome
+    content: |
+
+      # Welcome to the test quiz for RELATE!
+
+      Don't be scared.
+
+  -
+    id: perceptron_hw_questions 
+    shuffle: False
+    pages:
+
+    {% from "perceptron.jinja" import what_is_half %}
+    {{ what_is_half(5) }}
+
 completion_text: |
 
   Youve completed the homework! Good job!
