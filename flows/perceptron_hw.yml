@@ -34,11 +34,6 @@ groups:
 
       Don't be scared.
 
-  -
-    id: perceptron_hw_questions 
-    shuffle: False
-    pages:
-
     {% from "perceptron.jinja" import what_is_half %}
     {{ what_is_half(5) }}
    
