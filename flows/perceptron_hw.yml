@@ -17,6 +17,9 @@ rules:
   grade_aggregation_strategy: use_latest
 
   grading:
+  -
+    credit_percent: 100
+
 
 pages:
 
