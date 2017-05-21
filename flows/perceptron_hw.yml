@@ -20,26 +20,10 @@ rules:
   -
     credit_percent: 100
 
-groups:
--
-  id: intro
-  pages:
+pages:
 
-  -
-    type: Page
-    id: welcome
-    content: |
-
-      # Welcome to the test quiz for RELATE!
-
-      Don't be scared.
-
--
-  id: perceptron_hw_questions 
-  pages:
-
-    {% from "perceptron.jinja" import what_is_half %}
-    {{ what_is_half(5) }}
+  {% from "perceptron.jinja" import what_is_half %}
+  {{ what_is_half(5) }}
 
 completion_text: |
 
