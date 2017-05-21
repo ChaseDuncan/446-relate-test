@@ -17,3 +17,23 @@
     - <plain>half
     - <plain>a half
 {%- endmacro %}
+
+{% macro what_is_one(value) -%}
+-
+  type: TextQuestion
+  id: one
+  value: {{ value }}
+  prompt: |
+
+    # A half
+
+    What's a half?
+
+  answers:
+
+    - type: float
+      value: 0.5
+      rtol: 1e-4
+    - <plain>half
+    - <plain>a half
+{%- endmacro %}
