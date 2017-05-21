@@ -1,8 +1,9 @@
-{% macro what_is_half() -%}
+{% macro what_is_half(value) -%}
+
 -
   type: TextQuestion
   id: half
-  value: 5
+  value: {{ value }}
   prompt: |
 
     # A half
