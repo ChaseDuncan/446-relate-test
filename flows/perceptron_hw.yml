@@ -34,15 +34,15 @@ groups:
 
       Don't be scared.
 
--
-  id: perceptron_hw_questions 
-  shuffle: False
-  pages:
+  -
+    id: perceptron_hw_questions 
+    shuffle: False
+    pages:
 
-  {% from "perceptron.jinja" import what_is_half %}
-  {{ what_is_half() }}
+    {% from "perceptron.jinja" import what_is_half %}
+    {{ what_is_half() }}
    
 completion_text: |
 
-  You've completed the homework! Good job!
+  Youve completed the homework! Good job!
 
