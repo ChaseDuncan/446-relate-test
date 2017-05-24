@@ -29,11 +29,14 @@ pages:
 
     Do not be afraid.
 
-{% from "perceptron.jinja" import what_is_half %}
+{% from "what_is.jinja" import what_is_half %}
 {{ what_is_half(5) }}
 
-{% from "perceptron.jinja" import what_is_one %}
+{% from "what_is.jinja" import what_is_one %}
 {{ what_is_one(5) }}
+
+{% from "perceptron.jinja" import perceptron %}
+{{ perceptron() }}
 
 completion_text: |
 

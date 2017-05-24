@@ -1,38 +1,20 @@
-{% macro what_is_half(value) -%}
+{% macro perceptron() -%}
 -
-  type: TextQuestion
-  id: half
-  value: {{ value }}
+  type: PythonCodeQuestion
+  id: perceptron_code
+  value: 20
   prompt: |
+    # Coding perceptron
 
-    # A half
+  setup_code: |
+    from utils.lmn import l_of_m_of_n
 
-    What's a half?
+    D = l_of_m_of_n(2,3,5)
+    X = [:,:-1]
+    Y = [:,-1]
+    names_for_user: [X,Y]
+    initial_code:
+      import numpy as np
+      import scipy.linalg as la
 
-  answers:
-
-    - type: float
-      value: 0.5
-      rtol: 1e-4
-    - <plain>half
-    - <plain>a half
-{%- endmacro %}
-
-{% macro what_is_one(value) -%}
--
-  type: TextQuestion
-  id: one
-  value: {{ value }}
-  prompt: |
-
-    # One
-
-    What's a one?
-
-  answers:
-
-    - type: float
-      value: 1.0
-      rtol: 1e-4
-    - <plain>one
 {%- endmacro %}
