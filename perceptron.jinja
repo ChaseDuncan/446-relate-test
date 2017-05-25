@@ -18,12 +18,12 @@
     X[:,:-1] = D[:,:-1]
     Y = D[ :,-1]
 
-    names_for_user: [X,Y]
+  names_for_user: [X,Y]
 
-    names_from_user: [w]
+  names_from_user: [w]
 
-    initial_code:
-      import numpy as np
-      import scipy.linalg as la
+  initial_code:
+    import numpy as np
+    import scipy.linalg as la
 
 {%- endmacro %}
