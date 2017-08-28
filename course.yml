@@ -1,23 +1,341 @@
 chunks:
--
-    title: "Welcome to CS446 Machine Learning"
-    id: welcome
-    rules:
-    -
-        if_after: end_week 3
-        if_before: 2038-01-01 13:00:00 -5
-        weight: 100
+
+    # {{{ metadata
 
     -
-        weight: 0
+        title: "About the class"
+        id: about
+        rules:
+            - weight: 1000
 
-    content: |
+        content: |
 
-        # Welcome to CS446-FA17
-        (This is a test site.)
+            # Numerical Methods (CS 357) Spring 2017
 
-        Check out the [perceptron quiz](flow:perceptron_quiz).
+            | What                           | Where
+            | ------------------------------ | ----------------------------------------------------------------------------------------------
+            | **Time/place**                 | **Section M:** TTh 12:30pm-1:45pm 1320 [DCL](https://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=210) / [Catalog](https://courses.illinois.edu/schedule/2017/spring/CS/357) (Andreas)
+            |                                | **Section N:** TTh 2:00pm-3:15pm 1320 [DCL](https://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=210) / [Catalog](https://courses.illinois.edu/schedule/2017/spring/CS/357) (Edgar)
+            | **Class URL**                  | <https://bit.ly/cs357-s17>
+            | **Class recordings**           | <a href="https://recordings.engineering.illinois.edu:8443/ess/portal/section/aba7c116-653b-4f91-a8b8-219bd3419142 ">Watch &raquo;</a> (Section M)
+            |                                | <a href="https://recordings.engineering.illinois.edu:8443/ess/portal/section/04447b27-47d0-4fc9-89fc-677297afd1f3 ">Watch &raquo;</a> (Section N)
+            | **Web forum**                  | <a href="https://piazza.com/class/ix21fq0gj2ecu" target="_blank" role="button" class="btn btn-default">Discuss &raquo;</a> &middot; <a href="https://docs.google.com/forms/d/1e8x-_hivdjwXgSfBd4Gsd0RUoTqIXqHdJPHMJ8x5lQ4">Suggestions</a> &middot; <a href="/course/cs357-s17/instant-message/">Instant message</a>
+            | **Calendar**                   | <a href="calendar:" role="button" class="btn btn-default">View &raquo;</a>
 
-        Check out the [perceptron homework](flow:perceptron_hw).
+    # }}}
 
-        <img src="repo:images/robot.png">
+    # {{{ assignments
+
+    -
+        title: "Assignments"
+        id: assignments
+        rules:
+            - weight: 100
+
+        content: |
+
+            ## Quizzes
+
+            Please find the quizzes under their corresponding lecture in the [class calendar](calendar:).
+
+            <a href="flow:quiz-29" role="button"
+            class="btn btn-default">Take Quiz 29 &raquo;</a>
+
+            ## Exams
+
+            Please find information on our upcoming exams in the corresponding
+            section of the  [class calendar](calendar:). *Reserve your time slots* in
+            the testing facility as soon as possible--otherwise your preferred times
+            may no longer be available.
+
+            ## Homework
+
+            Please see the [class calendar](calendar:) for homework deadlines
+            (generally Fridays at 5 pm, except for examlet weeks).
+
+            * [Homework Set 0](flow:hw0)
+            * [Homework Set 1](flow:hw1)
+            * [Homework Set 2](flow:hw2)
+            * [Homework Set 3](flow:hw3)
+            * [Homework Set 4](flow:hw4)
+            * [Homework Set 5](flow:hw5)
+            * [Homework Set 6](flow:hw6)
+            * [Homework Set 7](flow:hw7)
+            * [Homework Set 8](flow:hw8)
+
+    # }}}
+
+    # {{{ outline
+
+    -
+        title: "Outline"
+        id: outline
+        rules:
+            - weight: 0
+
+        content: |
+
+            ## Course Outline
+
+            <div id="outline-tree" markdown="1">
+            {% include "outline-tree.html" %}
+            </div>
+
+            <script type="text/javascript">
+              $('#outline-tree').jstree({
+                    "core": {
+                        "themes": {
+                            'name': 'default',
+                            'responsive': true
+                        }
+                    },
+                    "state" : {
+                        "key" : "357f16_outline",
+                        "filter": function (k) { delete k.core.selected; return k; }
+                        },
+                    "plugins" : ["state"]
+                })
+              .bind("select_node.jstree", function (e, data)
+                  {
+                      var href = data.node.a_attr.href;
+                      if (href.length > 1)
+                          window.open(href, "_blank");
+                  });
+            </script>
+
+    # }}}
+
+    # {{{ scribbles
+
+    -
+        title: "Scribbles"
+        id: scribbles
+        rules:
+            - weight: 0
+
+        content: |
+
+            <p></p>
+
+            {% from "content-macros.jinja" import collapsible %}
+            {% call collapsible("Class scribbles", "scribbles_fold") %}
+
+            **CAUTION!**
+
+            These scribbled PDFs are an *unedited* reflection of what we wrote during class.
+            They need to be viewed in the context of the class discussion that led to them.
+            See the lecture videos for that.
+
+            If you would like actual, self-contained class notes, look in the outline above.
+
+            These scribbles are provided here to provide a record of our class discussion,
+            to be used in perhaps the following ways:
+
+            * as a way to cross-check your own notes
+            * to look up a formula that you know was shown in a certain class
+            * to remind yourself of what exactly was covered on a given day
+
+            By continuing to read them, you acknowledge that these files are provided
+            as supplementary material on an as-is basis.
+
+            {% include "scribbles-index.html" %}
+
+            {% endcall %}
+
+    # }}}
+
+    # {{{ team
+
+    -
+        title: Team
+        id: team
+        rules:
+            - if_before: lecture_m 5
+              weight: 0
+
+            - weight: 0
+
+        content: |
+
+            ## Team
+
+            {% macro person(name, role, image="repo:images/avatar.png", web_page=None, email=None, office=None) %}
+            <div class="row" markdown="1">
+            <div class="col-md-2" markdown="1">![{{ name }}]({{ image }})</div>
+            <div class="col-md-10" markdown="1">
+            {% if web_page %}
+            **[{{ name }}]({{ web_page }})**
+            {% else %}
+            **{{ name }}**
+            {% endif %}
+            ({{ role }})
+
+            **Email:** {{ email }}
+
+            {% if office %}
+            **Office:** {{ office }} [Siebel](http://cs.illinois.edu/about-us/directions-siebel-center)
+            {% endif %}
+            </div>
+            </div>
+            {% endmacro %}
+
+
+            {{ person("Andreas Kloeckner", role="Instructor (Section M)",
+                image="repo:images/andreas.jpeg",
+                web_page="http://www.cs.illinois.edu/~andreask",
+                email="andreask@illinois.edu",
+                office="4318") }}
+
+            {{ person("Edgar Solomonik", role="Instructor (Section N)",
+                image="repo:images/edgar.jpg",
+                web_page="http://solomon2.web.engr.illinois.edu/",
+                email="solomon2@illinois.edu",
+                office="4229") }}
+
+            {{ person("Nathaniel Bowman", role="TA",
+                image="repo:images/nathaniel_bowman_150px.jpeg",
+                email="nlbowma2@illinois.edu",
+                office="0209") }}
+
+            {{ person("Nicholas Christensen", role="TA",
+                image="repo:images/nick_150px.jpeg",
+                email="njchris2@illinois.edu",
+                office="0209") }}
+
+            {{ person("David Raju", role="TA",
+                image="repo:images/david_150px.jpeg",
+                email="draju2@illinois.edu",
+                office="0209") }}
+
+            {{ person("Ammar Sakarwala", role="TA",
+                image="repo:images/ammar_sakarwala_150px.jpg",
+                email="ammarks2@illinois.edu",
+                office="0209") }}
+
+            {{ person("Bhavesh Shrimali", role="TA",
+                image="repo:images/bhavesh.jpg",
+                email="bshrima2@illinois.edu",
+                office="0209") }}
+
+            {{ person("Yizhi Zhu", role="TA",
+                image="repo:images/yeech_150px.jpg",
+                email="yzhu44@illinois.edu",
+                office="0209") }}
+
+      # }}}
+
+    # {{{ resources
+
+    -
+        title: "Resources"
+        id: resources
+        rules:
+            - weight: 0
+
+        content: |
+
+            ## Computing
+
+            We will be using [Python](http://python.org) with the libraries
+            [numpy](http://docs.scipy.org/doc/numpy/user/),
+            [scipy](http://docs.scipy.org/doc/scipy/reference/) and
+            [matplotlib](http://matplotlib.org/) for in-class work and
+            assignments. No other languages are permitted. Python has a very
+            gentle learning curve, so you should feel at home even if you've
+            never done any work in Python.
+
+            ### Virtual Machine Image
+
+            While you are free to install Python and Numpy on your own computer
+            to do homework, the only *supported* way to do so is using the
+            supplied virtual machine image.
+
+            <a href="http://andreask.cs.illinois.edu/ComputeVirtualMachineImages"
+              role="button" class="btn btn-default">Download Virtual Machine &raquo;</a>
+
+    # }}}
+
+    # {{{ policies
+
+    -
+        title: "Policies"
+        id: policies
+        rules:
+            - if_before: lecture_m 5
+              weight: 200
+              shown: true
+
+            - weight: 0
+              shown: true
+
+        content: |
+
+            ## Grading Policies
+
+            <a href="staticpage:policies" role="button"
+            class="btn btn-primary">View policies &raquo;</a>
+
+            <a href="flow:quiz-policies" role="button"
+            class="btn btn-default">Take policies quiz &raquo;</a>
+
+    # }}}
+
+    # {{{ references
+
+    -
+        title: "References"
+        id: references
+        rules:
+        -   weight: 0
+
+        content: |
+
+            ## Previous editions of this class
+
+            * [Fall '16](https://relate.cs.illinois.edu/course/cs357-f16/)
+            * [Fall '15](https://relate.cs.illinois.edu/course/cs357-f15/)
+            * [Spring '15](https://relate.cs.illinois.edu/course/cs357-s15/)
+            * [Spring '14](http://courses.engr.illinois.edu/cs357/)
+            * [Fall '11](https://wiki.engr.illinois.edu/display/cs357fa11/Home)
+
+            ## Python Help
+
+            (see section 1 of the outline for more)
+
+            *   [**The Scipy Lectures**](http://www.scipy-lectures.org/)
+            *   [Dive into Python 3](http://www.diveinto.org/python3/)
+            *   [Learn Python the hard way](http://learnpythonthehardway.org/)
+            *   [Python tutorial](https://docs.python.org/3/tutorial/index.html)
+            *   [Facts and myths about Python names and values](http://nedbatchelder.com/text/names.html)
+            *   [CSE workshop training material](https://github.com/uiuc-cse/python-sp16)
+            *   [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+                (An open-access book on numpy vectorization techniques, Nicolas P. Rougier, 2017)
+
+            ### Numpy Help
+
+            * [Introduction to Python for Science](https://github.com/djpine/pyman)
+            * [Numpy/Scipy documentation](http://docs.scipy.org/doc/)
+            * [More in this reddit thread](http://www.reddit.com/r/Python/comments/1lgxbf/best_tutorial_to_learn_numpy/)
+            * [An introduction to Numpy and SciPy](http://www.engr.ucsb.edu/~shell/che210d/numpy.pdf)
+            * [100 Numpy exercises](http://www.loria.fr/~rougier/teaching/numpy.100/index.html)
+            * [The Numpy MedKit](http://mentat.za.net/numpy/numpy_advanced_slides/) by Stéfan van der Walt
+
+            ## Linear Algebra
+
+            *   [Immersive Linear Algebra](http://immersivemath.com/ila/)
+            *   [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) 
+                (YouTube, by 3Blue1Brown)
+            *   [Linear Algebra](https://www.youtube.com/channel/UCr22xikWUK2yUW4YxOKXclQ/playlists)
+                (YouTube, by MathTheBeautiful)
+
+            ## Statistics (goes beyond class material)
+
+            * [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers) by Jake VanderPlas
+
+            ## Optimization (goes beyond class material)
+
+            * [An Interactive Tutorial on Numerical Optimization](http://www.benfrederickson.com/numerical-optimization/) by Ben Frederickson
+
+    # }}}
+
+# vim: fdm=marker:textwidth=85
