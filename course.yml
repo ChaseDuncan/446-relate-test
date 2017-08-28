@@ -65,46 +65,6 @@ chunks:
 
     # }}}
 
-    # {{{ outline
-
-    -
-        title: "Outline"
-        id: outline
-        rules:
-            - weight: 0
-
-        content: |
-
-            ## Course Outline
-
-            <div id="outline-tree" markdown="1">
-            {% include "outline-tree.html" %}
-            </div>
-
-            <script type="text/javascript">
-              $('#outline-tree').jstree({
-                    "core": {
-                        "themes": {
-                            'name': 'default',
-                            'responsive': true
-                        }
-                    },
-                    "state" : {
-                        "key" : "357f16_outline",
-                        "filter": function (k) { delete k.core.selected; return k; }
-                        },
-                    "plugins" : ["state"]
-                })
-              .bind("select_node.jstree", function (e, data)
-                  {
-                      var href = data.node.a_attr.href;
-                      if (href.length > 1)
-                          window.open(href, "_blank");
-                  });
-            </script>
-
-    # }}}
-
     # {{{ scribbles
 
     -
@@ -116,9 +76,6 @@ chunks:
         content: |
 
             <p></p>
-
-            {% from "content-macros.jinja" import collapsible %}
-            {% call collapsible("Class scribbles", "scribbles_fold") %}
 
             **CAUTION!**
 
@@ -144,85 +101,6 @@ chunks:
 
     # }}}
 
-    # {{{ team
-
-    -
-        title: Team
-        id: team
-        rules:
-            - if_before: lecture_m 5
-              weight: 0
-
-            - weight: 0
-
-        content: |
-
-            ## Team
-
-            {% macro person(name, role, image="repo:images/avatar.png", web_page=None, email=None, office=None) %}
-            <div class="row" markdown="1">
-            <div class="col-md-2" markdown="1">![{{ name }}]({{ image }})</div>
-            <div class="col-md-10" markdown="1">
-            {% if web_page %}
-            **[{{ name }}]({{ web_page }})**
-            {% else %}
-            **{{ name }}**
-            {% endif %}
-            ({{ role }})
-
-            **Email:** {{ email }}
-
-            {% if office %}
-            **Office:** {{ office }} [Siebel](http://cs.illinois.edu/about-us/directions-siebel-center)
-            {% endif %}
-            </div>
-            </div>
-            {% endmacro %}
-
-
-            {{ person("Andreas Kloeckner", role="Instructor (Section M)",
-                image="repo:images/andreas.jpeg",
-                web_page="http://www.cs.illinois.edu/~andreask",
-                email="andreask@illinois.edu",
-                office="4318") }}
-
-            {{ person("Edgar Solomonik", role="Instructor (Section N)",
-                image="repo:images/edgar.jpg",
-                web_page="http://solomon2.web.engr.illinois.edu/",
-                email="solomon2@illinois.edu",
-                office="4229") }}
-
-            {{ person("Nathaniel Bowman", role="TA",
-                image="repo:images/nathaniel_bowman_150px.jpeg",
-                email="nlbowma2@illinois.edu",
-                office="0209") }}
-
-            {{ person("Nicholas Christensen", role="TA",
-                image="repo:images/nick_150px.jpeg",
-                email="njchris2@illinois.edu",
-                office="0209") }}
-
-            {{ person("David Raju", role="TA",
-                image="repo:images/david_150px.jpeg",
-                email="draju2@illinois.edu",
-                office="0209") }}
-
-            {{ person("Ammar Sakarwala", role="TA",
-                image="repo:images/ammar_sakarwala_150px.jpg",
-                email="ammarks2@illinois.edu",
-                office="0209") }}
-
-            {{ person("Bhavesh Shrimali", role="TA",
-                image="repo:images/bhavesh.jpg",
-                email="bshrima2@illinois.edu",
-                office="0209") }}
-
-            {{ person("Yizhi Zhu", role="TA",
-                image="repo:images/yeech_150px.jpg",
-                email="yzhu44@illinois.edu",
-                office="0209") }}
-
-      # }}}
 
     # {{{ resources
 
