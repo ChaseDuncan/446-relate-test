@@ -95,9 +95,6 @@ chunks:
             By continuing to read them, you acknowledge that these files are provided
             as supplementary material on an as-is basis.
 
-            {% include "scribbles-index.html" %}
-
-            {% endcall %}
 
     # }}}
 
