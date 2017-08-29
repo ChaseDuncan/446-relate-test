@@ -41,13 +41,29 @@ chunks:
         scribing lectures (3-credit students only) and by reporting mistakes 
         in the lecture notes.
         
+
 -
-    id: latepolicy
+    id: homework
     content: |
 
-        ## Late policy
+        ## Homework
 
-        Late Policy:
+        The homeworks will consist of a combination of machine problems and 
+        written exercises to be submitted on the course relate website. 
+
+        Submitted solutions to the machine problems must be written in Python, 
+        using only standard libraries (numpy / scipy). We will sometimes block 
+        libraries as required.
+
+        Solutions to the written problems must be submitted as Latex typeset PDF’s. 
+        Each question must begin on a new page. You may use WYSIWYG latex editors 
+        such as LyX if you are unfamiliar with Latex.
+
+        The due dates are shown on the start page of each homework set and in the 
+        [class calendar](calendar:).
+
+        ### Late policy
+
         You have 96 hours of "credit" that you can use any way you want. 
         You don't need to come to us and ask to submit the homework late. 
         Just submit it when you are ready; we will accumulate your late 
@@ -69,34 +85,6 @@ chunks:
         Do let us know if there are extreme situations where this lenient 
         policy isn't satisfactory.
 
--
-    id: homework
-    content: |
-
-        ## Homework
-
-        Homework sets will be due every week except for examlet weeks.
-        These will be generally be long-form and require some coding as well
-        as theory work. The due dates are shown on the start page of each
-        homework set and in the [class calendar](calendar:).
-
-        <div class="alert alert-success">
-        The grading policy is set up so that you can mess up on the
-        homework quite badly without a drastic impact on your grade. The homework
-        is *intended* as a learning experience, so making mistakes is OK.
-        </div>
-
-        ### Late homework
-
-        *   Homework submitted after the deadline will count for half of its
-            original worth. This offer is good for up to one week after the
-            original deadline. After that, no late work will be accepted.
-
-        *   Solutions to the homework sets will be posted after the due date.
-            If you are submitting homework for the half-credit due date,
-            feel free to use the posted solutions in writing up your own
-            solution. You may however *not* directly copy the sample solution.
-            What you submit must still be written by you, not just copied.
 
         ### Grading
 
@@ -106,40 +94,35 @@ chunks:
         *   After you click "Submit Assignment" in the top right corner, you will
             not be able to make changes to your work.
 
-        *   Unlike quizzes, homework sets expire automatically at (or soon after)
-            the deadline. If you would like to make use of the half-credit
-            opportunity, you **must** select "At deadline: Do not submit session
+        *   Homework sets expire automatically at (or soon after)
+            the deadline. If you would like to make use of your late hours,
+            you **must** select "At deadline: Do not submit session
             for grading". Otherwise, the homework set will automatically be submitted
-            at the deadline. This is particularly true if you have not worked on
-            the homework set at all but wish to work on it during the half-credit
-            period.
+            at the deadline. 
 
-        *   We **do not accept partial submissions** on the homework.  (e.g. we
-            won't let you submit problem 1 and 2 before and 3, 4, 5 after the
-            deadline.) There will also be **no resubmissions** of work already
-            graded. If, between the posted solution and your graded work, you
-            still have questions, feel free to raise those on Piazza or during
-            the TA's office hours.
+        ### Academic integrity
+        
+        Feel free to discuss the assignment with each other in general terms, and to 
+        search the Web for general guidance (not for complete solutions). All 
+        solutions should be written up individually. If you make substantial use of 
+        some information from outside sources, be sure to acknowledge the sources in 
+        your solution. In particular, please acknowledge all other students you 
+        worked with on the homework/projects.
 
-        ### Collaboration on Homework
+        We will follow the departmental honor code policy here: 
+        https://cs.illinois.edu/academics/honor-code
 
-        *   You may *discuss* your approach (but not your code or your writeups)
-            with your peers. All parts of each homework set must be your own work.
-            You must have typed/written every part of your homework
-            yourself. In some cases, code/pieces of work from elsewhere *may* be
-            allowed--if so, this will be stated in the instructions. In that
-            case, you *must* acknowledge the source.
-
-        *   If we notice that your work has considerable overlap with someone else's
-            (and we *do* check), the both of you should be ready to have an unpleasant
-            conversation and face penalites as provided by campus rules regarding
-            academic honesty.
-
+        <div class="alert alert-success">
+        If we notice that your work has considerable overlap with someone else's
+        (and we *do* check), the both of you should be ready to have an unpleasant
+        conversation and face penalites as provided by campus rules regarding
+        academic honesty.
+        </div>
 -
-    id: examlets
+    id: exams
     content: |
 
-        ## Examlets and Final Exam
+        ## Exams
 
         There will be an "examlet" every three weeks during the semester, along
         with a longer final exam. The examlets and the final will take place in
