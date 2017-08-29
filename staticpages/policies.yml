@@ -107,9 +107,9 @@ chunks:
         your solution. In particular, please acknowledge all other students you 
         worked with on the homework/projects.
 
-        We will follow the departmental honor code policy here: 
-        https://cs.illinois.edu/academics/honor-code
-
+        We will follow the departmental 
+        [honor code policy](https://cs.illinois.edu/academics/honor-code).
+        
         <div class="alert alert-success">
         If we notice that your work has considerable overlap with someone else's
         (and we *do* check), the both of you should be ready to have an unpleasant
@@ -122,86 +122,53 @@ chunks:
 
         ## Exams
 
-        There will be an "examlet" every three weeks during the semester, along
-        with a longer final exam. The examlets and the final will take place in
-        a computer-based testing facility ("CBTF") in the basement of Grainger
-        Library.  The examlets will be offered over a period of a few days.  You
-        must schedule an two-hour-long block within that time span in which to
-        take the examlet.  You must schedule your examlet using a self-service web
-        site provided by the facility. Instructions will be given in the class
-        calendar.
+        There will be two midterms this semester. The exams will be given during 
+        class time. There will not be a final.
 
-        All examlets and the final are cumulative.
-
-        ### Taking Examlets
-
-        *   You will take your examlets as scheduled with the CBTF, and only on
-            the scheduled day and time. If you do not take the examlet (e.g. by not
-            scheduling an appointment, by not reporting to the facility at the
-            scheduled time, or by not performing the required work),
-            the examlet will be counted as a zero.
-
-        *   There will be no exceptions to the examlet scheduling policy except in
-            cases of severe emergency (e.g., loss of life or limb). Examples of
+        *   Exams must be taken during the class time for which they are scheduled 
+            except in cases of severe emergency (e.g., loss of life or limb). 
+            Examples of
             events that do not qualify as emergencies include (but are not limited
             to): transportation problems, conflict with work schedule, important
-            family vacation, or computer problems. The policies of the facility
-            apply during each examlet for aspects such as late arrival and emergency
-            closures.
+            family vacation, or computer problems. 
 
         *   For any type of foreseeable absence, documentation must be received
             by the instructor
-            at least *one week* before the examlet to be acceptable, at which point
-            the instructor will determine whether a make-up examlet will be allowed.
+            at least *one week* before the exam to be acceptable, at which point
+            the instructor will determine whether a make-up exam will be allowed.
 
-            Make-up examlets are not allowed without proper documentation as described
-            above or for university-approved activities.  Make-up examlets are not
+            Make-up exams are not allowed without proper documentation as described
+            above or for university-approved activities.  Make-up exams are not
             allowed for any type of unexcused absences, including missing class to
-            study for a test, oversleeping, not being ready to take the examlet, or
+            study for a test, oversleeping, not being ready to take the exam, or
             having to work at an outside job.
 
             For health-related or other absence because of an emergency, the
-            instructor must be notified at least two hours prior to the examlet
-            to receive *consideration* for a make-up examlet, but preferably
-            as early as possible. An hour before the examlet at the latest, the
-            instructor will provide guidance on whether a make-up examlet will
+            instructor must be notified at least two hours prior to the exam
+            to receive *consideration* for a make-up exam, but preferably
+            as early as possible. An hour before the exam at the latest, the
+            instructor will provide guidance on whether a make-up exam will
             be allowed.
 
-        *   **No aids** other than a writing utensil and paper provided by the facility are
-            allowed in examlets. In particular: If you are seen *near* a phone, MP3 player or
+        *   **No aids** other than a writing utensil and paper are
+            allowed in exams. In particular: If you are seen *near* a phone, 
+            MP3 player or
             other digital device (turned on or not--it does not matter) during
-            an examlet, you will receive a grade of **zero** for the examlet.
+            an exam, you will receive a grade of **zero** for the exam.
 
-        *   Only examlets taken in accordance with these rules will receive
+        *   Only exams taken in accordance with these rules will receive
             credit. Any deviation from these rules will lead to the
             exam in question being assinged a grade of **zero**.
 
-        ### Conflict examlets
-
-        Since you will be allowed to take the examlets at the testing center over a period of
-        a few days, conflict examlets will generally not be provided.
+        ### Conflict exams
+        Since exams are taken in class conflict exams will generally not be provided.
 
         ### Accommodations
 
-        Please let us (<a href="mailto:solomon2@illinois.edu?subject=Exam accommodations"
-          role="button" class="btn btn-default">Edgar &raquo;</a> or <a href="mailto:andreask@illinois.edu?subject=Examlet accommodations"
-          role="button" class="btn btn-default">Andreas &raquo;</a> ) know as soon as you can if you need
-        special accommodations (extra time etc.) on examlets. Thanks!
-
--
-    id: extra_credit
-    content: |
-
-        ## Extra credit opportunities
-
-        *   Ask and answer good questions on Piazza. Every numerics-related question
-            that an instructor marks as a good question/answer is worth 0.1 points on
-            your final course grade, up to a maximum of 1 point.
-
-        *   Do very well on exams. 100% on an examlet is awarded even when you make
-            a mistake on some questions. (See each examlet's rules/start page for details
-            on how many.) If you get more questions right than the 100% standard,
-            those points are yours to keep.
+        Please let <a href="mailto:sanmi@illinois.edu?subject=Exam accommodations"
+          role="button" class="btn btn-default">Sanmi &raquo;</a> 
+          know as soon as you can if you need
+        special accommodations (extra time etc.) on exams. Thanks!
 
 -
     id: responsibility
