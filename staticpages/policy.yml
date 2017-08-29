@@ -1,41 +1,42 @@
 chunks:
--
-  title: "Course policies."
-  content: |
-Prerequisites
-Students are expected to have taken a class in linear algebra,  probability and statistics and a basic class in theory of computation and algorithms. Students are expected to be familiar with the python programming language.
-Course Material
-Text: Kevin Murphy, Machine Learning: A Probabilistic Perspective, MIT Press
-I will not follow the text closely, and some of the material covered is not in the textbook, but it is still a useful book to have. 
+  #{{{ policies
+  -
+    title: "Course policies."
+    content: |
+      Prerequisites
+      Students are expected to have taken a class in linear algebra,  probability and statistics and a basic class in theory of computation and algorithms. Students are expected to be familiar with the python programming language.
+      Course Material
+      Text: Kevin Murphy, Machine Learning: A Probabilistic Perspective, MIT Press
+      I will not follow the text closely, and some of the material covered is not in the textbook, but it is still a useful book to have. 
 
-Optional books with relevant material:
-Shai Shalev-Shwartz and Shai Ben-David, Understanding Machine Learning: From Theory to Algorithms, Cambridge University Press
-Trevor Hastie Robert Tibshirani & Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Springer Science & Business Media
-C.M. Bishop, Pattern Recognition and Machine Learning, Springer
-Tom Mitchell, Machine Learning, McGraw Hill
-Ian Goodfellow, Yoshua Bengio & Aaron Courville, Deep Learning, The MIT Press
+      Optional books with relevant material:
+      Shai Shalev-Shwartz and Shai Ben-David, Understanding Machine Learning: From Theory to Algorithms, Cambridge University Press
+      Trevor Hastie Robert Tibshirani & Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Springer Science & Business Media
+      C.M. Bishop, Pattern Recognition and Machine Learning, Springer
+      Tom Mitchell, Machine Learning, McGraw Hill
+      Ian Goodfellow, Yoshua Bengio & Aaron Courville, Deep Learning, The MIT Press
 
-Lecture notes, course handouts, pointers to relevant papers, and other materials will be available as HTML and PDF documents from Piazza
-Online Discussion Platform
-We will use Piazza for our online discussion platform. You are encouraged to use Piazza to ask the course staff and your classmates questions about the course material (rather than sending individual e-mails). Please self-register at piazza.com/illinois/fall2017/cs446
-Grading
-Homeworks (4 x 10%),  Exams (2 x 20%), Project (1 x 20%)
-For students that wish to earn 4 hours credit, you will be required to scribe a lecture, and submit a literature review (Pass/Fail credit)
-Additional Participation Credit (up to 5%)
-This may be earned by participating in lecture & online discussions, scribing lectures (3-credit students only) and by reporting mistakes in the lecture notes.. 
+      Lecture notes, course handouts, pointers to relevant papers, and other materials will be available as HTML and PDF documents from Piazza
+      Online Discussion Platform
+      We will use Piazza for our online discussion platform. You are encouraged to use Piazza to ask the course staff and your classmates questions about the course material (rather than sending individual e-mails). Please self-register at piazza.com/illinois/fall2017/cs446
+      Grading
+      Homeworks (4 x 10%),  Exams (2 x 20%), Project (1 x 20%)
+      For students that wish to earn 4 hours credit, you will be required to scribe a lecture, and submit a literature review (Pass/Fail credit)
+      Additional Participation Credit (up to 5%)
+      This may be earned by participating in lecture & online discussions, scribing lectures (3-credit students only) and by reporting mistakes in the lecture notes.. 
 
-The grade curve (if required) will be separate for 3-credit and 4-credit students, and will not include the participation grade i.e.  it is possible to earn 105% grade.
-Late Policy:
-You have 96 hours of "credit" that you can use any way you want. You don't need to come to us and ask to submit the homework late. Just submit it when you are ready; we will accumulate your late time and allow up to 96 hours for the whole semester. 
+      The grade curve (if required) will be separate for 3-credit and 4-credit students, and will not include the participation grade i.e.  it is possible to earn 105% grade.
+      Late Policy:
+      You have 96 hours of "credit" that you can use any way you want. You don't need to come to us and ask to submit the homework late. Just submit it when you are ready; we will accumulate your late time and allow up to 96 hours for the whole semester. 
 
-Late submission will not be accepted once homework solutions are released online. Typically, we will wait for up to 96 hours after due date before we release the solutions. However, when there is an exam coming up, we may want to release solutions earlier. This means that you may not be able to use all 96 hours of credit on assignments that are due near exams. When we release these assignments, we will inform you if late submission is not accepted. 
-IMPORTANT: You must track your own late hours. We will provide a cumulative account periodically and at the end of the semester.
-Do let us know if there are extreme situations where this lenient policy isn't satisfactory.
-Academic integrity
-Feel free to discuss the assignment with each other in general terms, and to search the Web for general guidance (not for complete solutions). All solutions should be written up individually. If you make substantial use of some information from outside sources, be sure to acknowledge the sources in your solution. In particular, please acknowledge all other students you worked with on the homework/projects.
-We will follow the departmental honor code policy here: https://cs.illinois.edu/academics/honor-code
-Homework:
-The homeworks will consist of a combination of machine problems and written exercises to be submitted on the course relate website. 
-Submitted solutions to the machine problems must be written in Python, using only standard libraries (numpy / scipy). We will sometimes block libraries as required.
-Solutions to the written problems must be submitted as Latex typeset PDF’s. Each question must begin on a new page. You may use WYSIWYG latex editors such as LyX if you are unfamiliar with Latex.
-
+      Late submission will not be accepted once homework solutions are released online. Typically, we will wait for up to 96 hours after due date before we release the solutions. However, when there is an exam coming up, we may want to release solutions earlier. This means that you may not be able to use all 96 hours of credit on assignments that are due near exams. When we release these assignments, we will inform you if late submission is not accepted. 
+      IMPORTANT: You must track your own late hours. We will provide a cumulative account periodically and at the end of the semester.
+      Do let us know if there are extreme situations where this lenient policy isn't satisfactory.
+      Academic integrity
+      Feel free to discuss the assignment with each other in general terms, and to search the Web for general guidance (not for complete solutions). All solutions should be written up individually. If you make substantial use of some information from outside sources, be sure to acknowledge the sources in your solution. In particular, please acknowledge all other students you worked with on the homework/projects.
+      We will follow the departmental honor code policy here: https://cs.illinois.edu/academics/honor-code
+      Homework:
+      The homeworks will consist of a combination of machine problems and written exercises to be submitted on the course relate website. 
+      Submitted solutions to the machine problems must be written in Python, using only standard libraries (numpy / scipy). We will sometimes block libraries as required.
+      Solutions to the written problems must be submitted as Latex typeset PDF’s. Each question must begin on a new page. You may use WYSIWYG latex editors such as LyX if you are unfamiliar with Latex.
+  }}}
