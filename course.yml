@@ -35,22 +35,21 @@ chunks:
 
             ### Topics to be covered include:
             
-            *Linear/Logistic Regression
-            *Variable Selection / Sparsity 
-            *Optimization - Gradient Descent
-            *Support Vector Machines
-            *Convolutional/Recurrent Neural Networks
-            *Clustering
-            *Graphical Models
-            *Expectation Maximization
-            *Variational Inference
-            *Generative Adversarial Networks
-            *Multilabel Classification
-            *Structured Prediction
+            * Linear/Logistic Regression
+            * Variable Selection / Sparsity 
+            * Optimization - Gradient Descent
+            * Support Vector Machines
+            * Convolutional/Recurrent Neural Networks
+            * Clustering
+            * Graphical Models
+            * Expectation Maximization
+            * Variational Inference
+            * Generative Adversarial Networks
+            * Multilabel Classification
+            * Structured Prediction
 
             ### Required text
-            Text: [Kevin Murphy, Machine Learning: A Probabilistic Perspective, MIT Press]
-            (https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/ref=sr_1_1?ie=UTF8&qid=1504017924&sr=8-1&keywords=probabilistic+machine+learning)
+            Text: [Kevin Murphy, Machine Learning: A Probabilistic Perspective, MIT Press](https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/ref=sr_1_1?ie=UTF8&qid=1504017924&sr=8-1&keywords=probabilistic+machine+learning)
 
     # }}}
 
@@ -99,11 +98,11 @@ chunks:
 
             ## Additional reading
 
-            *Shai Shalev-Shwartz and Shai Ben-David, Understanding Machine Learning: From Theory to Algorithms, Cambridge University Press
-            *Trevor Hastie Robert Tibshirani & Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Springer Science & Business Media
-            *C.M. Bishop, Pattern Recognition and Machine Learning, Springer
-            *Tom Mitchell, Machine Learning, McGraw Hill
-            *Ian Goodfellow, Yoshua Bengio & Aaron Courville, Deep Learning, The MIT Press
+            * Shai Shalev-Shwartz and Shai Ben-David, Understanding Machine Learning: From Theory to Algorithms, Cambridge University Press
+            * Trevor Hastie Robert Tibshirani & Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Springer Science & Business Media
+            * C.M. Bishop, Pattern Recognition and Machine Learning, Springer
+            * Tom Mitchell, Machine Learning, McGraw Hill
+            * Ian Goodfellow, Yoshua Bengio & Aaron Courville, Deep Learning, The MIT Press
 
     # }}}
 
