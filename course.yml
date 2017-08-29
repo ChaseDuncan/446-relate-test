@@ -147,11 +147,8 @@ chunks:
 
             ## Grading Policies
 
-            <a href="staticpage:policies" role="button"
+            <a href="staticpage:test" role="button"
             class="btn btn-primary">View policies &raquo;</a>
-
-            <a href="flow:quiz-policies" role="button"
-            class="btn btn-default">Take policies quiz &raquo;</a>
 
     # }}}
 
