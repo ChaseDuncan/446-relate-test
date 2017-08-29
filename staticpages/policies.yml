@@ -15,31 +15,10 @@ chunks:
 
         Percentage | Component
         ---------- | ------------------
-        5%         | Online quizzes
-        20%        | Homework
-        50%        | Examlets (equal weight)
-        25%        | Final
-
-        ### Grading Scale
-
-        All your grade components will be added up with the percentage
-        weights indicated and result in a single number. This number will
-        determine your letter grade, according to the following scales:
-
-        Grade  | Point Range
-        ------ |------------
-        A+     | [97, 100)
-        A      | [93, 97)
-        A-     | [90, 93)
-        B+     | [87, 90)
-        B      | [83, 87)
-        B-     | [80, 83)
-        C+     | [77, 80)
-        C      | [73, 77)
-        C-     | [70, 73)
-        D+     | [67, 70)
-        D      | [63, 67)
-        D-     | [60, 63)
+        4x10%        | Homework
+        2x20%        | Exams
+          20%        | Project
+        up to 10%        | Participation
 
         ### General Rules
 
