@@ -1,0 +1,308 @@
+chunks:
+-
+    id: title
+    content: |
+
+        # Grading Policies
+
+-
+    id: grade
+    content: |
+
+        ## Grade
+
+        Your grade is composed of the following components:
+
+        Percentage | Component
+        ---------- | ------------------
+        5%         | Online quizzes
+        20%        | Homework
+        50%        | Examlets (equal weight)
+        25%        | Final
+
+        ### Grading Scale
+
+        All your grade components will be added up with the percentage
+        weights indicated and result in a single number. This number will
+        determine your letter grade, according to the following scales:
+
+        Grade  | Point Range
+        ------ |------------
+        A+     | [97, 100)
+        A      | [93, 97)
+        A-     | [90, 93)
+        B+     | [87, 90)
+        B      | [83, 87)
+        B-     | [80, 83)
+        C+     | [77, 80)
+        C      | [73, 77)
+        C-     | [70, 73)
+        D+     | [67, 70)
+        D      | [63, 67)
+        D-     | [60, 63)
+
+        ### General Rules
+
+        *   After grades are released for any homework set, quiz, or examlet, you
+            have two weeks in order to clarify any misgivings you may have about
+            the grade you received. Once two weeks have passed, the assigned
+            grade is considered accepted and no further complaints will be
+            considered.
+
+-
+    id: registration
+    content: |
+
+        ## Registration
+
+        CS 357 is, unfortunately, too popular for its own good, leading to
+        annoyances like waitlists and sections with controlled access.
+
+        Some of you have asked to take part in class activities despite
+        not being *officially* registered for the class, and we are usually happy
+        to make this possible. If you choose to make use of this, you will
+        be held to the same standard as every other student that is officially
+        registered for the class, and, at the discretion of the instructor,
+        work you do as part of this 'unofficial' participation *may* be eligible
+        for class credit if you later become officially registered.
+
+        However, please keep the following two things in mind:
+
+        1. While it is quite likely that spots will open up as the semester
+           continues, we are unable to promise that this will happen.
+
+        2. As long as you are not officially signed up (check with the academic
+           office in 1210 Siebel if you're not sure), you will not receive
+           university credit for the work you are doing.
+
+        In particular being "enrolled" in the course on this site has
+        no administrative significance to the university. What matters is
+        enrollment as shown in the [UIUC self-service
+        application](https://apps.uillinois.edu/selfservice/).
+
+-
+    id: quizzes
+    content: |
+
+        ## Online quizzes
+
+        There will be a small amount of pre-class material along with a short
+        quiz before each class.  All these quizzes (also the one on grading
+        policies!) contribute a small amount to your grade.
+
+        These rules apply to the quizzes, unless otherwise stated:
+
+        *   Pre-lecture material and associated quizzes will be posted 24 hours before
+            the lecture at the latest. You will find links to this material on the
+            class calendar page in the section for the upcoming lecture.
+
+        *   Quizzes will usually allow **three graded attempts**.
+
+            Of these, the one with the higher grade will count.
+
+        *   We obviously can't keep you from **looking up information** while you're taking the quiz.
+            To an extent, that's fine. Nonetheless, try to do as much of the quiz as you can from
+            memory. You'll learn more.
+
+        *   Please *don't* take these quizzes **as a group**, or **speak with
+            your peers** about the answers.
+
+        *   Each quiz has a **deadline**. Usually, that deadline will be the
+            beginning of the next class.
+            After that deadline has passed, you can still take the quiz for
+            **half-credit for three days**. Once that period has passed, you will
+            still be able to review your answers and the correct answer, but
+            you will not be allowed to take the quiz again for credit.
+            (You may repeat the quiz to practice, however.)
+
+        *   There is no time limit on these quizzes other than the deadline.
+            (I.e. if it takes you a day to complete the quiz, that's fine,
+            as long as you click "End Session" and "Confirm" before the deadline.)
+
+            If you do not submit your quiz before the deadline, it will
+            automatically roll over to half-credit.
+
+            After the half-credit deadline expires, you will lose the ability to
+            make changes to your quiz. The current state of the quiz at
+            that point will count as your submitted answer (for half credit).
+
+        *   **IMPORTANT:** You must fully submit your entire quiz in order to
+            receive credit.  To do so, you must press the "Submit Assignment"
+            button in the upper right corner.  **This is separate from
+            submitting a final answer to a single question.** Failure to submit
+            the entire quiz, regardless of whether answers were saved for
+            individual questions, will result in no credit.
+
+        <div class="alert alert-info">
+        If you're thinking of violating these rules, consider the following:
+        The grade contribution of the quizzes is small enough
+        and there are enough quizzes that messing up (even badly!) on a few
+        will not have a measurable effect on your grade.
+        </div>
+
+-
+    id: homework
+    content: |
+
+        ## Homework
+
+        Homework sets will be due every week except for examlet weeks.
+        These will be generally be long-form and require some coding as well
+        as theory work. The due dates are shown on the start page of each
+        homework set and in the [class calendar](calendar:).
+
+        <div class="alert alert-success">
+        The grading policy is set up so that you can mess up on the
+        homework quite badly without a drastic impact on your grade. The homework
+        is *intended* as a learning experience, so making mistakes is OK.
+        </div>
+
+        ### Late homework
+
+        *   Homework submitted after the deadline will count for half of its
+            original worth. This offer is good for up to one week after the
+            original deadline. After that, no late work will be accepted.
+
+        *   Solutions to the homework sets will be posted after the due date.
+            If you are submitting homework for the half-credit due date,
+            feel free to use the posted solutions in writing up your own
+            solution. You may however *not* directly copy the sample solution.
+            What you submit must still be written by you, not just copied.
+
+        ### Grading
+
+        You get exactly one submission per homework set. In particular, this
+        means that:
+
+        *   After you click "Submit Assignment" in the top right corner, you will
+            not be able to make changes to your work.
+
+        *   Unlike quizzes, homework sets expire automatically at (or soon after)
+            the deadline. If you would like to make use of the half-credit
+            opportunity, you **must** select "At deadline: Do not submit session
+            for grading". Otherwise, the homework set will automatically be submitted
+            at the deadline. This is particularly true if you have not worked on
+            the homework set at all but wish to work on it during the half-credit
+            period.
+
+        *   We **do not accept partial submissions** on the homework.  (e.g. we
+            won't let you submit problem 1 and 2 before and 3, 4, 5 after the
+            deadline.) There will also be **no resubmissions** of work already
+            graded. If, between the posted solution and your graded work, you
+            still have questions, feel free to raise those on Piazza or during
+            the TA's office hours.
+
+        ### Collaboration on Homework
+
+        *   You may *discuss* your approach (but not your code or your writeups)
+            with your peers. All parts of each homework set must be your own work.
+            You must have typed/written every part of your homework
+            yourself. In some cases, code/pieces of work from elsewhere *may* be
+            allowed--if so, this will be stated in the instructions. In that
+            case, you *must* acknowledge the source.
+
+        *   If we notice that your work has considerable overlap with someone else's
+            (and we *do* check), the both of you should be ready to have an unpleasant
+            conversation and face penalites as provided by campus rules regarding
+            academic honesty.
+
+-
+    id: examlets
+    content: |
+
+        ## Examlets and Final Exam
+
+        There will be an "examlet" every three weeks during the semester, along
+        with a longer final exam. The examlets and the final will take place in
+        a computer-based testing facility ("CBTF") in the basement of Grainger
+        Library.  The examlets will be offered over a period of a few days.  You
+        must schedule an two-hour-long block within that time span in which to
+        take the examlet.  You must schedule your examlet using a self-service web
+        site provided by the facility. Instructions will be given in the class
+        calendar.
+
+        All examlets and the final are cumulative.
+
+        ### Taking Examlets
+
+        *   You will take your examlets as scheduled with the CBTF, and only on
+            the scheduled day and time. If you do not take the examlet (e.g. by not
+            scheduling an appointment, by not reporting to the facility at the
+            scheduled time, or by not performing the required work),
+            the examlet will be counted as a zero.
+
+        *   There will be no exceptions to the examlet scheduling policy except in
+            cases of severe emergency (e.g., loss of life or limb). Examples of
+            events that do not qualify as emergencies include (but are not limited
+            to): transportation problems, conflict with work schedule, important
+            family vacation, or computer problems. The policies of the facility
+            apply during each examlet for aspects such as late arrival and emergency
+            closures.
+
+        *   For any type of foreseeable absence, documentation must be received
+            by the instructor
+            at least *one week* before the examlet to be acceptable, at which point
+            the instructor will determine whether a make-up examlet will be allowed.
+
+            Make-up examlets are not allowed without proper documentation as described
+            above or for university-approved activities.  Make-up examlets are not
+            allowed for any type of unexcused absences, including missing class to
+            study for a test, oversleeping, not being ready to take the examlet, or
+            having to work at an outside job.
+
+            For health-related or other absence because of an emergency, the
+            instructor must be notified at least two hours prior to the examlet
+            to receive *consideration* for a make-up examlet, but preferably
+            as early as possible. An hour before the examlet at the latest, the
+            instructor will provide guidance on whether a make-up examlet will
+            be allowed.
+
+        *   **No aids** other than a writing utensil and paper provided by the facility are
+            allowed in examlets. In particular: If you are seen *near* a phone, MP3 player or
+            other digital device (turned on or not--it does not matter) during
+            an examlet, you will receive a grade of **zero** for the examlet.
+
+        *   Only examlets taken in accordance with these rules will receive
+            credit. Any deviation from these rules will lead to the
+            exam in question being assinged a grade of **zero**.
+
+        ### Conflict examlets
+
+        Since you will be allowed to take the examlets at the testing center over a period of
+        a few days, conflict examlets will generally not be provided.
+
+        ### Accommodations
+
+        Please let us (<a href="mailto:solomon2@illinois.edu?subject=Exam accommodations"
+          role="button" class="btn btn-default">Edgar &raquo;</a> or <a href="mailto:andreask@illinois.edu?subject=Examlet accommodations"
+          role="button" class="btn btn-default">Andreas &raquo;</a> ) know as soon as you can if you need
+        special accommodations (extra time etc.) on examlets. Thanks!
+
+-
+    id: extra_credit
+    content: |
+
+        ## Extra credit opportunities
+
+        *   Ask and answer good questions on Piazza. Every numerics-related question
+            that an instructor marks as a good question/answer is worth 0.1 points on
+            your final course grade, up to a maximum of 1 point.
+
+        *   Do very well on exams. 100% on an examlet is awarded even when you make
+            a mistake on some questions. (See each examlet's rules/start page for details
+            on how many.) If you get more questions right than the 100% standard,
+            those points are yours to keep.
+
+-
+    id: responsibility
+    content: |
+
+        ## Student responsibilities
+
+        Please read and understand the
+        [UIUC student code](http://studentcode.illinois.edu/Pocket_Code_web2013.pdf)
+        (link opens PDF).
+
+        In particular, make sure to read and understand Paragraph §1‑402. The rules there
+        along with the rules in this tutorial form the foundation for making sure you
+        and everyone else in the class receive a *fair*, *transparent* grade.
