@@ -147,7 +147,7 @@ chunks:
 
             ## Grading Policies
 
-            <a href="staticpage:test" role="button"
+            <a href="staticpage:policy" role="button"
             class="btn btn-primary">View policies &raquo;</a>
 
     # }}}
