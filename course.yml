@@ -97,6 +97,14 @@ chunks:
             gentle learning curve, so you should feel at home even if you've
             never done any work in Python.
 
+            ## Additional reading
+
+            *Shai Shalev-Shwartz and Shai Ben-David, Understanding Machine Learning: From Theory to Algorithms, Cambridge University Press
+            *Trevor Hastie Robert Tibshirani & Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Springer Science & Business Media
+            *C.M. Bishop, Pattern Recognition and Machine Learning, Springer
+            *Tom Mitchell, Machine Learning, McGraw Hill
+            *Ian Goodfellow, Yoshua Bengio & Aaron Courville, Deep Learning, The MIT Press
+
     # }}}
 
     # {{{ policies
