@@ -1,6 +1,6 @@
 chunks:
 
-  #{{{ policies
+  # {{{ policies
 
   -
     title: "Course policies."
@@ -14,4 +14,4 @@ chunks:
       Students are expected to have taken a class in linear algebra,  probability and statistics and a basic class in theory of computation and algorithms. Students are expected to be familiar with the python programming language.
       Course Material
 
-  }}}
+  # }}}
