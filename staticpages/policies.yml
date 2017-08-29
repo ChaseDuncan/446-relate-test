@@ -42,64 +42,32 @@ chunks:
         in the lecture notes.
         
 -
-    id: quizzes
+    id: latepolicy
     content: |
 
-        ## Online quizzes
+        ## Late policy
 
-        There will be a small amount of pre-class material along with a short
-        quiz before each class.  All these quizzes (also the one on grading
-        policies!) contribute a small amount to your grade.
+        Late Policy:
+        You have 96 hours of "credit" that you can use any way you want. 
+        You don't need to come to us and ask to submit the homework late. 
+        Just submit it when you are ready; we will accumulate your late 
+        time and allow up to 96 hours for the whole semester. 
 
-        These rules apply to the quizzes, unless otherwise stated:
-
-        *   Pre-lecture material and associated quizzes will be posted 24 hours before
-            the lecture at the latest. You will find links to this material on the
-            class calendar page in the section for the upcoming lecture.
-
-        *   Quizzes will usually allow **three graded attempts**.
-
-            Of these, the one with the higher grade will count.
-
-        *   We obviously can't keep you from **looking up information** while you're taking the quiz.
-            To an extent, that's fine. Nonetheless, try to do as much of the quiz as you can from
-            memory. You'll learn more.
-
-        *   Please *don't* take these quizzes **as a group**, or **speak with
-            your peers** about the answers.
-
-        *   Each quiz has a **deadline**. Usually, that deadline will be the
-            beginning of the next class.
-            After that deadline has passed, you can still take the quiz for
-            **half-credit for three days**. Once that period has passed, you will
-            still be able to review your answers and the correct answer, but
-            you will not be allowed to take the quiz again for credit.
-            (You may repeat the quiz to practice, however.)
-
-        *   There is no time limit on these quizzes other than the deadline.
-            (I.e. if it takes you a day to complete the quiz, that's fine,
-            as long as you click "End Session" and "Confirm" before the deadline.)
-
-            If you do not submit your quiz before the deadline, it will
-            automatically roll over to half-credit.
-
-            After the half-credit deadline expires, you will lose the ability to
-            make changes to your quiz. The current state of the quiz at
-            that point will count as your submitted answer (for half credit).
-
-        *   **IMPORTANT:** You must fully submit your entire quiz in order to
-            receive credit.  To do so, you must press the "Submit Assignment"
-            button in the upper right corner.  **This is separate from
-            submitting a final answer to a single question.** Failure to submit
-            the entire quiz, regardless of whether answers were saved for
-            individual questions, will result in no credit.
+        Late submission will not be accepted once homework solutions are 
+        released online. Typically, we will wait for up to 96 hours after 
+        due date before we release the solutions. However, when there is 
+        an exam coming up, we may want to release solutions earlier. This 
+        means that you may not be able to use all 96 hours of credit on 
+        assignments that are due near exams. When we release these assignments, 
+        we will inform you if late submission is not accepted. 
 
         <div class="alert alert-info">
-        If you're thinking of violating these rules, consider the following:
-        The grade contribution of the quizzes is small enough
-        and there are enough quizzes that messing up (even badly!) on a few
-        will not have a measurable effect on your grade.
+        **IMPORTANT:** You must track your own late hours. We will provide a 
+        cumulative account periodically and at the end of the semester.
         </div>
+
+        Do let us know if there are extreme situations where this lenient 
+        policy isn't satisfactory.
 
 -
     id: homework
