@@ -20,6 +20,13 @@ chunks:
         20%                | Project
         5% (up to)        | Participation
 
+
+        ### Additional Participation Credit (up to 5%)
+
+        This may be earned by participating in lecture & online discussions, 
+        scribing lectures (3-credit students only) and by reporting mistakes 
+        in the lecture notes.
+
         ### General Rules
 
         *   After grades are released for any homework set or exam you
@@ -30,17 +37,7 @@ chunks:
         *   The grade curve (if required) will be separate for 3-credit and 
             4-credit students, and will not include the participation grade 
             i.e.  it is possible to earn 105% grade.
-
--
-    id: participation
-    content: |
-
-        ## Additional Participation Credit (up to 5%)
-
-        This may be earned by participating in lecture & online discussions, 
-        scribing lectures (3-credit students only) and by reporting mistakes 
-        in the lecture notes.
-        
+       
 
 -
     id: homework
