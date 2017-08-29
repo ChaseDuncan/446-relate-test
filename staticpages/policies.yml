@@ -18,47 +18,29 @@ chunks:
         40% (4x10%)        | Homework
         40% (2x20%)        | Exams
         20%                | Project
-        10% (up to)        | Participation
+        5% (up to)        | Participation
 
         ### General Rules
 
-        *   After grades are released for any homework set, quiz, or examlet, you
+        *   After grades are released for any homework set or exam you
             have two weeks in order to clarify any misgivings you may have about
             the grade you received. Once two weeks have passed, the assigned
             grade is considered accepted and no further complaints will be
             considered.
+        *   The grade curve (if required) will be separate for 3-credit and 
+            4-credit students, and will not include the participation grade 
+            i.e.  it is possible to earn 105% grade.
 
 -
-    id: registration
+    id: participation
     content: |
 
-        ## Registration
+        ## Additional Participation Credit (up to 5%)
 
-        CS 357 is, unfortunately, too popular for its own good, leading to
-        annoyances like waitlists and sections with controlled access.
-
-        Some of you have asked to take part in class activities despite
-        not being *officially* registered for the class, and we are usually happy
-        to make this possible. If you choose to make use of this, you will
-        be held to the same standard as every other student that is officially
-        registered for the class, and, at the discretion of the instructor,
-        work you do as part of this 'unofficial' participation *may* be eligible
-        for class credit if you later become officially registered.
-
-        However, please keep the following two things in mind:
-
-        1. While it is quite likely that spots will open up as the semester
-           continues, we are unable to promise that this will happen.
-
-        2. As long as you are not officially signed up (check with the academic
-           office in 1210 Siebel if you're not sure), you will not receive
-           university credit for the work you are doing.
-
-        In particular being "enrolled" in the course on this site has
-        no administrative significance to the university. What matters is
-        enrollment as shown in the [UIUC self-service
-        application](https://apps.uillinois.edu/selfservice/).
-
+        This may be earned by participating in lecture & online discussions, 
+        scribing lectures (3-credit students only) and by reporting mistakes 
+        in the lecture notes.
+        
 -
     id: quizzes
     content: |
